@@ -15,6 +15,21 @@
     -webkit-background-clip: text;
 }
 
+.btn:hover{
+    background-color: white !important;
+    color: black !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.col-md-2:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+
 @media(max-width:425px){
     .hh{
         font-size: 57px !important;
